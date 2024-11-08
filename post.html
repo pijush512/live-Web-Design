@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Basic Website</title>
+</head>
+<body>
+    <header>
+        <div class="header_section templete clear">
+            <div class="logo_section">
+                <div class="logo">
+                    <img src="images/logo wbg.png" alt="logo">
+                    <div class="logo_doco">
+                        <h2>Website Title</h2>
+                        <p>Our website description</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav templete">
+            <button type="button" class="nav_toggle">
+                <span></span>
+            </button>
+            <div class="nav_section templete clear">
+                <ul>
+                    <li><a id="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="social">
+                    <a href="https://www.facebook.com/"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content_section templete clear">
+        <div class="main_content clear">
+            <div class="about">
+                <h2>About Us</h2>
+                <img src="images/man.avif" alt="About_me image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet ratione error, debitis temporibus qui nihil corrupti labore. Maxime nesciunt incidunt fugit culpa ut at unde, iure consectetur consequatur esse.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet ratione error, debitis temporibus qui nihil corrupti labore. Maxime nesciunt incidunt fugit culpa ut at unde, iure consectetur consequatur esse.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet ratione error, debitis temporibus qui nihil corrupti labore. Maxime nesciunt incidunt fugit culpa ut at unde, iure consectetur consequatur esse.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet ratione error, debitis temporibus qui nihil corrupti labore. Maxime nesciunt incidunt fugit culpa ut at unde, iure consectetur consequatur esse. Maxime nesciunt incidunt fugit culpa ut at unde, iure consectetur consequatur esse.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet ratione error, debitis temporibus qui nihil corrupti labore. Maxime nesciunt incidunt fugit culpa ut at unde, iure consectetur consequatur esse.
+                </p>
+            </div>
+            <div class="related_post">
+                <h2>Related post</h2>
+                <div class="related_doco_img">
+                    <img src="images/kk.avif" alt="">
+                    <img src="images/time.avif" alt="">
+                    <img src="images/ar2.avif" alt="">
+                    <img src="images/photo-1730343463464-55cf74eb485e.avif" alt="">
+                    <img src="images/vaj.avif" alt="">
+                    <img src="images/ar3.avif" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="sidebar clear">
+            <div class="same_sidebar clear">
+                <h2>Latest articles</h2>
+                <ul>
+                    <li><a href="#">Post title one will bw go here.</a></li>
+                    <li><a href="#">Post title two will bw go here.</a></li>
+                    <li><a href="#">Post title three will bw go here.</a></li>
+                    <li><a href="#">Post title four will bw go here.</a></li>
+                    <li><a href="#">Post title five will bw go here.</a></li>
+                </ul>
+            </div>
+
+            <div class="same_sidebar clear">
+                <h2>Sidebar one header</h2>
+                <p>Sidebar text will be go here.Sidebar text will be go here. Sidebar text will be go here. Sidebar text will be go here. Sidebar text will be go here.Sidebar text will be go here.</p>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <div class="footer_section templete clear">
+            <div class="footer_menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <p>&copy;Copyright || &copy;PijushSarker 2024.</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/1d3539069a.js" crossorigin="anonymous"></script>
+    <script>
+          $(document).ready(function () {
+    $('.nav_toggle').on('click', function () {
+        $('.nav_section').toggleClass('block');
+    });
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px){
+    body {
+       background-image: none;
+    }
+    .templete {
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .content_section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main_content {
+        max-width: 688px;
+        width: 94%;
+    }
+
+
+    .sidebar {
+        max-width: 705px;
+        width: 95%;
+    }
+}
+@media screen and (max-width:702px){
+    .main_content {
+        width: 92%;
+    }
+
+}
+@media screen and (max-width: 550px){
+    .main_content {
+        width: 90%;
+    }
+    .nav_toggle{
+        display: block;
+    }
+    .nav_section {
+        display: none;
+    }
+    .nav_section ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav_section a {
+        border: none;
+    } 
+    .social {
+        display: none;
+    }
+    .nav_section .social {
+        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 440px){
+    .logo img {
+        width: 40px;
+    }
+    .logo_doco h2 {
+        font-size: 18px;
+    }
+    .logo_doco p {
+        font-size: 16px;
+    }
+    .nav_toggle {
+        display: block;
+        top: 27px;
+        right: 25px;
+    }
+    .main_content {
+        max-width: 428px !important;
+        width: 86%;
+    }
+    .same_post p {
+        padding-top: 10px;
+        float: right;
+    }
+    .sidebar {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body {
+       background-image: none;
+    }
+    .templete {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 30px;
+    }
+    .logo_doco h2 {
+        font-size: 16px;
+    }
+    .logo_doco p {
+        font-size: 12px;
+    }
+    .nav_toggle {
+        display: block;
+        top: 27px;
+        right: 36px;
+    }
+    .content_section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .main_content {
+        width: 77%;
+    }
+    .same_post img {
+        width: 90%;
+    }
+    .same_post h2, .about h2 {
+        font-size: 20px;
+    }
+
+    .sidebar {
+        width: 85%;
+    }
+    .same_sidebar ul li a {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .footer_section {
+        height: 158px;
+    }
+    .footer_menu ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .footer_section p {
+        margin-top: 15px;
+    }
+}
+
+
