@@ -47,11 +47,27 @@
     } 
     .social {
         display: none;
+        gap: 0px;
+        padding:0 0 5px 10px;
     }
+    .social a {
+        font-size: 18px;
+    }
+    .nav_section ul {
+        gap: 0;
+    }
+    .nav_section a {
+        /* background-color: #cdcdcd; */
+        color: #fff;
+        font-size: 15px; 
+        font-weight: normal;
+        margin:0;
+        padding:5px 8px;
+    } 
     .nav_section .social {
         display: block;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 @media screen and (max-width: 440px){

@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     outline: 0;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 18px;
     color: #000;
@@ -36,7 +36,7 @@ a {
 
 
 .header_section {
-    background-color: #B7801c;
+    background-color: #000B58;
     color: #fff;
     position: relative;
 }
@@ -67,7 +67,7 @@ a {
 }
 .social a {
     font-size: 25px;
-    background-color: #e6af4b;
+    background-color: #003161;
     padding: 6px;
     border-radius: 4px;
     color: #fff;
@@ -77,7 +77,7 @@ a {
     color: #000;
 }
 .nav_section {
-    background-color: #e6af4b;
+    background-color: #003161;
 }
 .nav_section ul {
     display: flex;
@@ -85,16 +85,16 @@ a {
 }
 .nav_section a {
     /* background-color: #cdcdcd; */
-    color: #444;
+    color: #fff;
     font-size: 20px; 
     font-weight: bolder;
     margin: 5px;
     display: block;
     padding: 5px 30px;
-    border: 1px solid #c48d29;
+    border: 1px solid #000B58;
 } 
 .nav_section a:hover, #active {
-    background-color: #c48d29;
+    background-color: rgba(0, 11, 88, 60%);
     color: #fff;
 }
 .nav_section .social {
@@ -115,10 +115,10 @@ a {
 .main_content {
     max-width: 628px;
     width: 100%;
-    background-color: #fef4e5;
+    background-color: rgba(254, 244, 229, 30%);
     padding: 8px 20px;
     margin: 15px 15px 15px 0;
-    border: 1px solid #b7801c;
+    border: 1px solid #000B58;
 }
 .about {
     margin-bottom: 20px;
@@ -127,9 +127,9 @@ a {
     float: left;
     max-width: 300px;
     width: 100%;
-    border: 2px solid #b7801c;
+    border: 2px solid rgba(0, 49, 97, 70%);
     padding: 5px;
-    background-color: #000;
+    background-color: #fff;
     margin-right: 10px;
 }
 .about p {
@@ -213,7 +213,7 @@ a {
     float: left;
     max-width: 300px;
     width: 100%;
-    border: 2px solid #E0D702;
+    border: 2px solid rgba(0, 49, 97, 70%);
     padding: 5px;
     margin-right: 10px;
 }
@@ -231,19 +231,19 @@ a {
     padding: 4px 8px;
     display: block;
     border-radius: 3px;
-    color: #b7801c;
+    color: #222;
     font-size: 17px;
-    border: 1px solid #b7801c;
+    border: 1px solid rgba(0, 49, 97, 70%);
 }
 .readmore a:hover {
     color: #E16525;
 }
 .sidebar {
     width: 253px;
-    background-color: #fef4e5;
+    background-color: rgba(254, 244, 229, 30%);
     margin: 15px 0;
     padding: 10px;
-    border: 1px solid #b7801c;
+    border: 1px solid #000B58;
     height: max-content;
     
 }
@@ -251,24 +251,24 @@ a {
     margin-bottom: 10px;
 }
 .same_sidebar h2, .related_post h2 {
-    background-color: #e6af4b;
-    color: #333;
+    background-color: #124076;
+    color: #fff;
     margin-bottom: 8px;
     font-size: 22px;
     padding: 10px;
-    border-bottom: 2px solid #b7801c;
+    border-bottom: 2px solid #000B58;
 }
 .same_sidebar ul li {
     /* background-color: #fff; */
     font-size: 16px;
     padding: 5px 8px 5px 0;
-    border-bottom: 1px dotted #e9c05c;
+    border-bottom: 1px dotted rgba(0, 49, 97, 70%);
 }
 .same_sidebar ul li:last-child {
     border: none;
 }
 .same_sidebar  ul li a {
-    color: #814a00;
+    color: #222;
 }
 .same_sidebar  ul li a:hover {
     color: #DF5C25;
@@ -278,16 +278,16 @@ a {
 }
 .popular h3 {
     font-weight: normal;
-    border-bottom: 1px dashed #b7801c;
+    border-bottom: 1px dashed rgba(0, 49, 97, 70%);
     font-size: 18px;
     margin-bottom: 10px;
     padding-bottom: 5px;
 }
 .popular img {
     max-width: 80px;
-    border: 1px solid #E0D702;
+    border: 2px solid rgba(0, 49, 97, 70%);
     padding: 2px;
-    background-color: #333;
+    background-color: #fff;
     float: left;
     margin-right: 10px;
 }
@@ -297,19 +297,20 @@ a {
 }
 .footer_section {
     height: 90px;
-    background-color: #B7801c;
+    background-color: #000B58;
     text-align: center;
 }
 .footer_section p {
     font-size: 16px;
+    color: #777;
 }
 .footer_menu ul li {
     display: inline-block;
     margin-top: 25px;
     margin-bottom: 10px;
     padding: 0 5px;
-    text-decoration: underline;
+    text-decoration: underline #999;
 }
 .footer_menu ul li a {
-    color: #222;
+    color: #fff;
 }
